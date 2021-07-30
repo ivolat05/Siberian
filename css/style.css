@@ -744,6 +744,16 @@ ul.breadcrumb li a:hover {
     color: #020303;
 }
 
+/*-----------category----------*/
+.category {
+    padding-bottom: 84px;
+}
+
+.category__box-btn--active {
+    text-decoration-line: underline;
+    color: #2F80ED;
+}
+
 /*-------------footer---------------*/
 .footer {
     margin-top: auto;
