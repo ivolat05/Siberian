@@ -788,6 +788,68 @@ ul.breadcrumb li a:hover {
     background: #AEAEAE;
 }
 
+/*---------------catalog------------------*/
+.catalog {
+    padding-bottom: 34px;
+}
+
+.catalog__box {
+    padding-bottom: 20px;
+}
+
+.catalog__wrapp {}
+
+.catalog__wrapp-box {
+    display: flex;
+    padding-bottom: 43px;
+}
+
+.catalog__wrapp-img {}
+
+.catalog__wrapp-inner {
+    padding: 30px 24px;
+}
+
+.catalog__inner-title {
+    font-family: 'Open Sans',
+        sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #2F80ED;
+
+    padding-bottom: 18px;
+}
+
+.catalog__list {
+    list-style: disc;
+    color: #2F80ED;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-position: inside;
+
+}
+
+.catalog__list-inner {
+    padding-right: 22px;
+}
+
+.catalog__list-link {
+    font-family: 'Montserrat',
+        sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #2F80ED;
+
+    position: relative;
+    left: -10px;
+}
+
 /*-------------footer---------------*/
 .footer {
     margin-top: auto;
