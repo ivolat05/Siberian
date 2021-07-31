@@ -316,6 +316,7 @@ a {
 .main__box-link:hover {
     border: 3px solid #8CC01E;
     color: #8CC01E;
+    padding: 8px 23px;
 }
 
 
@@ -377,7 +378,9 @@ ul.breadcrumb li a:hover {
     padding: 18px 0 26px;
 }
 
-.info__wrapp-box:hover {
+.info__wrapp-box:hover,
+.filter__conteiner-box:hover,
+.recipes__wrapp-box:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -472,6 +475,8 @@ ul.breadcrumb li a:hover {
     margin-bottom: 24px;
 
     position: relative;
+
+    transition: .4s;
 }
 
 .filter__conteiner-inner {
@@ -564,7 +569,10 @@ ul.breadcrumb li a:hover {
 
     padding: 12px 0;
     background: #2F80ED;
+
+    transition: .4s;
 }
+
 
 .filter__btn {
     text-align: center;
@@ -582,8 +590,13 @@ ul.breadcrumb li a:hover {
     border: none;
     background: rgba(255, 255, 255, 0);
     cursor: pointer;
+
+    transition: .4s;
 }
 
+.filter__btn:hover {
+    color: #2F80ED;
+}
 
 .filter__conteiner-box--new .filter__indicator {
     display: block;
@@ -597,29 +610,33 @@ ul.breadcrumb li a:hover {
     background: #8CC01E;
 }
 
-.filter__conteiner-box--old__rose .filter__conteiner-wrapp {
+.filter__conteiner-box--hit .filter__conteiner-wrapp {
     background: #FFF9E9;
 }
 
-.filter__conteiner-box--old__rose .filter__conteiner-link {
+.filter__conteiner-box--hit .filter__conteiner-link {
     background: #C62253;
 }
 
-.filter__conteiner-box-yellow .filter__conteiner-wrapp {
+.filter__conteiner-box--sale .filter__conteiner-wrapp {
     background: #FFFCBE;
 }
 
-.filter__conteiner-box-yellow .filter__conteiner-link {
+.filter__conteiner-box--sale .filter__conteiner-link {
     background: #FFC700;
 }
 
 
-.filter__conteiner-box--grey .filter__conteiner-wrapp {
+.filter__conteiner-box--unactive .filter__conteiner-wrapp {
     background: #E5EFF9;
 }
 
-.filter__conteiner-box--grey .filter__conteiner-link {
+.filter__conteiner-box--unactive .filter__conteiner-link {
     background: #AEAEAE;
+}
+
+.filter__conteiner-link:hover {
+    background: #125DC2;
 }
 
 /*------------insta--------------*/
@@ -663,6 +680,8 @@ ul.breadcrumb li a:hover {
     overflow: hidden;
     position: relative;
     margin-bottom: 10px;
+
+    transition: .4s;
 }
 
 .recipes__indicator {
@@ -724,6 +743,12 @@ ul.breadcrumb li a:hover {
     display: block;
     width: 100%;
     padding: 10px 10px;
+
+    transition: .4s;
+}
+
+.recipes__wrapp-link:hover {
+    background: #125DC2;
 }
 
 /*----------------content--------------*/
@@ -752,6 +777,15 @@ ul.breadcrumb li a:hover {
 .category__box-btn--active {
     text-decoration-line: underline;
     color: #2F80ED;
+}
+
+/*-----------sales-------------*/
+.sales__box {
+    padding: 5px 0 42px;
+}
+
+.sales__wrapp-unactive .recipes__wrapp-link {
+    background: #AEAEAE;
 }
 
 /*-------------footer---------------*/
