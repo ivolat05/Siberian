@@ -1043,6 +1043,98 @@ ul.breadcrumb li a:hover {
     color: #020303;
 }
 
+/*-------------block------------------*/
+.block {
+    padding-bottom: 93px;
+}
+
+.block__box {
+    padding: 5px 0 35px;
+}
+
+.block__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #000000;
+
+}
+
+/*-----------------partner---------------*/
+.partner {
+    background: #2F80ED;
+}
+
+
+.partner__form {
+    padding: 42px 0 61px;
+    margin: 0 auto;
+    max-width: 416px;
+}
+
+.partner__form-title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+    padding-bottom: 6px;
+}
+
+.partner__form-input {
+    width: 100%;
+    padding: 13px 28px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+
+    margin-bottom: 15px;
+}
+
+.partner__form-textarea {
+    width: 100%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+
+    border: none;
+    outline: none;
+
+    padding: 15px;
+
+    resize: none;
+
+    margin-bottom: 32px;
+}
+
+.partner__fort-btn {
+    width: 100%;
+    cursor: pointer;
+    padding: 12px;
+
+    font-family: 'Nunito',
+        sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+    background: #8CC01E;
+    border: none;
+}
+
 /*-------------footer---------------*/
 .footer {
     margin-top: auto;
