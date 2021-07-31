@@ -1135,6 +1135,149 @@ ul.breadcrumb li a:hover {
     border: none;
 }
 
+/*---------------cart--------------*/
+.cart {
+    padding-bottom: 66px;
+}
+
+.cart__box {
+    padding: 5px 0 42px;
+}
+
+.cart__table {
+    overflow: hidden;
+    background: #FFFFFF;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 34px;
+}
+
+.cart__table-header {
+    background: #2F80ED;
+}
+
+
+
+.cart__table-line {
+    display: flex;
+    justify-content: space-between;
+    color: #33334F;
+}
+
+.cart__table-text {
+    font-family: 'Poppins',
+        sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.cart__table-column {
+    width: 20%;
+}
+
+.cart__table-header .cart__table-line {
+    color: #fff;
+    padding: 21px 0;
+}
+
+
+
+.cart__table-column:nth-child(1) .cart__table-text {
+    text-align: left;
+    padding-left: 65px;
+    display: block;
+}
+
+.cart__table-body .cart__table-line {
+    padding: 23px 0;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.cart__form {
+    max-width: 1032px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.cart__form-input {
+    width: 380px;
+    font-family: 'Poppins',
+        sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000;
+    padding: 22px 20px;
+
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+}
+
+.cart__form-input::placeholder {
+    font-family: 'Poppins',
+        sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.18px;
+
+    color: #B9B9B9;
+}
+
+.cart__form-btn {
+    background: #2F80ED;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    outline: none;
+
+    font-family: 'Poppins',
+        sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.18px;
+    color: #F4F6F9;
+
+    padding: 22px 60px;
+    position: relative;
+    left: -10px;
+
+    cursor: pointer;
+
+    transition: .4s;
+}
+
+.cart__form-btn:hover {
+    background: #125DC2;
+}
+
+.cart__form-text {
+    font-family: 'Poppins',
+        sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.0033em;
+    color: #2F80ED;
+
+    padding-left: 15px;
+}
+
 /*-------------footer---------------*/
 .footer {
     margin-top: auto;
