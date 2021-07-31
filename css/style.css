@@ -951,6 +951,98 @@ ul.breadcrumb li a:hover {
     font-weight: bold;
 }
 
+/*-----------buy------------------*/
+.buy {
+    padding-bottom: 40px;
+}
+
+.buy__box {
+    padding: 5px 0 35px;
+}
+
+.buy-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+
+    padding-bottom: 23px;
+}
+
+.buy-title {
+    font-family: 'Open Sans',
+        sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+
+    padding-bottom: 9px;
+}
+
+.buy__wrapp {
+    max-width: 620px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 11px 0 20px;
+}
+
+.buy__wrapp-inner {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.buy__wrapp-img {
+    padding-right: 20px;
+}
+
+.buy__wrapp-text {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.buy__wrapp-text::before {
+    content: url('../images/buy__disc.png');
+    position: relative;
+    top: -1px;
+    padding-right: 10px;
+}
+
+.buy__conteiner {
+    display: flex;
+    justify-content: start;
+}
+
+.buy__conteiner-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    padding-right: 15px;
+
+}
+
+.buy__conteiner-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #020303;
+}
+
 /*-------------footer---------------*/
 .footer {
     margin-top: auto;
