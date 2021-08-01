@@ -80,6 +80,8 @@ a {
 
 .menu__list-item:nth-last-child(1) .menu__list-link {
     background: #C63A22;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .menu__list-item:nth-last-child(1) .menu__list-link::before {
@@ -340,13 +342,13 @@ a {
     display: inline-block;
     position: relative;
     margin-right: 25px;
-
+    border-radius: 50%;
+    border: 3px solid #E0E0E0;
 }
 
 .main__basket-img {
     padding: 18px 20px;
-    border-radius: 50%;
-    border: 3px solid #E0E0E0;
+
 }
 
 .main__basket-text {
@@ -463,7 +465,7 @@ a {
 }
 
 @media(max-width: 480px) {
-    .main__basket-img {
+    .main__basket-inner {
         border: none;
     }
 
@@ -988,9 +990,6 @@ ul.breadcrumb li a:hover {
         display: none;
     }
 
-    #ymaps1627805986832713266 {
-        height: 100px;
-    }
 }
 
 .map {
@@ -1000,6 +999,7 @@ ul.breadcrumb li a:hover {
 @media(max-width: 900px) {
     .map {
         height: 419px;
+        overflow: hidden;
     }
 
 }
@@ -1025,7 +1025,7 @@ ul.breadcrumb li a:hover {
 }
 
 .insta__wrapp {
-    width: 1400px;
+    width: 100%;
     display: flex;
     padding-bottom: 131px;
 }
@@ -1033,6 +1033,8 @@ ul.breadcrumb li a:hover {
 .insta__wrapp-inner {
     overflow: hidden;
 }
+
+
 
 /*-------------insta media---------------*/
 @media(max-width: 1000px) {
@@ -1055,6 +1057,8 @@ ul.breadcrumb li a:hover {
     .insta__wrapp .insta__wrapp-img {
         width: 100px;
     }
+
+
 }
 
 
@@ -1361,6 +1365,14 @@ ul.breadcrumb li a:hover {
         padding-right: 0;
     }
 
+
+    .catalog__wrapp-inner {
+        padding: 30px 0px;
+    }
+
+    .catalog__list-link {
+        font-size: 12px;
+    }
 }
 
 /*------------------category media------------*/
@@ -1996,8 +2008,8 @@ ul.breadcrumb li a:hover {
     .cart__table-column:nth-last-child(2) {
         width: 90px;
         position: absolute;
-        bottom: 42px;
-        right: 96px;
+        bottom: 53px;
+        right: 73px;
     }
 
     .cart__table-column:nth-last-child(2) .cart__table-text {
@@ -2016,10 +2028,14 @@ ul.breadcrumb li a:hover {
     }
 
     .price {
-        width: 220px;
+        width: 268px;
         color: #2F80ED;
         padding-bottom: 15px;
         text-align: left;
+        padding-left: 7px;
+        margin-left: 12px;
+        border-bottom: 1px solid #000000;
+        margin-bottom: 10px;
     }
 
     .cart__table {
