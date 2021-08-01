@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -27,6 +28,7 @@
                         <span class='menu__burger-line'></span>
                     </div>
                     <div class="header__wrapp-inner header__inner">
+
                         <a class="header__inner-link" href="#">
                             Каталог
                         </a>
@@ -104,49 +106,51 @@
                         </div>
                     </div>
                 </div>
-                <div class="main__box">
-                    <a class="main__box-link" href="#">
-                        <img src="images/meat.png" alt="">
-                        <h3 class="main__box-text">
-                            Мясо
-                        </h3>
-                    </a>
-                    <a class="main__box-link" href="#">
-                        <img src="images/seafood.png" alt="">
-                        <h3 class="main__box-text">
-                            Морепродукты
-                        </h3>
-                    </a>
-                    <a class="main__box-link" href="#">
-                        <img src="images/img__main.png" alt="">
-                        <h3 class="main__box-text">
-                            Все для курения
-                        </h3>
-                    </a>
-                    <a class="main__box-link" href="#">
-                        <img src="images/img__main-2.png" alt="">
-                        <h3 class="main__box-text">
-                            Напитки
-                        </h3>
-                    </a>
-                    <a class="main__box-link" href="#">
-                        <img src="images/img__main-3.png" alt="">
-                        <h3 class="main__box-text">
-                            Бакалея
-                        </h3>
-                    </a>
-                    <a class="main__box-link" href="#">
-                        <img src="images/img__main-4.png" alt="">
-                        <h3 class="main__box-text">
-                            Снеки
-                        </h3>
-                    </a>
-                    <a class="main__box-link" href="#">
-                        <img src="images/img__main-5.png" alt="">
-                        <h3 class="main__box-text">
-                            Специи и орехи
-                        </h3>
-                    </a>
+                <div class="main__box ">
+                    <div class="main__box-conteiner ">
+                        <a class="main__box-link " href="#">
+                            <img src="images/meat.png" alt="">
+                            <h3 class="main__box-text">
+                                Мясо
+                            </h3>
+                        </a>
+                        <a class="main__box-link" href="#">
+                            <img src="images/seafood.png" alt="">
+                            <h3 class="main__box-text">
+                                Морепродукты
+                            </h3>
+                        </a>
+                        <a class="main__box-link" href="#">
+                            <img src="images/img__main.png" alt="">
+                            <h3 class="main__box-text">
+                                Все для курения
+                            </h3>
+                        </a>
+                        <a class="main__box-link" href="#">
+                            <img src="images/img__main-2.png" alt="">
+                            <h3 class="main__box-text">
+                                Напитки
+                            </h3>
+                        </a>
+                        <a class="main__box-link" href="#">
+                            <img src="images/img__main-3.png" alt="">
+                            <h3 class="main__box-text">
+                                Бакалея
+                            </h3>
+                        </a>
+                        <a class="main__box-link" href="#">
+                            <img src="images/img__main-4.png" alt="">
+                            <h3 class="main__box-text">
+                                Снеки
+                            </h3>
+                        </a>
+                        <a class="main__box-link" href="#">
+                            <img src="images/img__main-5.png" alt="">
+                            <h3 class="main__box-text">
+                                Специи и орехи
+                            </h3>
+                        </a>
+                    </div>
                 </div>
             </div>
         </main>
@@ -181,7 +185,12 @@
                                 Тараненко Евгений Леонидович, генеральный директор
                             </h3>
                         </div>
-                        <img class="about__inner-img" src="images/about__foto.png" alt="">
+                        <div class=" about__wrapp-mobil">
+                            <img class="about__inner-img" src="images/about__foto.png" alt="">
+                            <h3 class="about__inner-title about__inner-title-mobile">
+                                Тараненко Е. Л. <br>генеральный директор
+                            </h3>
+                        </div>
                     </div>
                     <!--/.about__wrapp-inner-->
                     <div class="about__wrapp-box">
@@ -233,7 +242,7 @@
 
         <div class="map">
             <script type="text/javascript" charset="utf-8" async
-                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A009e8b0f4d467358c829d2e016d57016754251bd3907f41a2818d1c448f9dcbc&amp;width=100%25&amp;height=610&amp;lang=ru_RU&amp;scroll=false">
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A009e8b0f4d467358c829d2e016d57016754251bd3907f41a2818d1c448f9dcbc&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=false">
             </script>
         </div>
 
@@ -337,6 +346,7 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

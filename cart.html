@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -27,6 +28,7 @@
                         <span class='menu__burger-line'></span>
                     </div>
                     <div class="header__wrapp-inner header__inner">
+
                         <a class="header__inner-link" href="#">
                             Каталог
                         </a>
@@ -104,49 +106,51 @@
                         </div>
                     </div>
                 </div>
-                <div class="main__box">
-                    <a class="main__box-link" href="#">
-                        <img src="images/meat.png" alt="">
-                        <h3 class="main__box-text">
-                            Мясо
-                        </h3>
-                    </a>
-                    <a class="main__box-link" href="#">
-                        <img src="images/seafood.png" alt="">
-                        <h3 class="main__box-text">
-                            Морепродукты
-                        </h3>
-                    </a>
-                    <a class="main__box-link" href="#">
-                        <img src="images/img__main.png" alt="">
-                        <h3 class="main__box-text">
-                            Все для курения
-                        </h3>
-                    </a>
-                    <a class="main__box-link" href="#">
-                        <img src="images/img__main-2.png" alt="">
-                        <h3 class="main__box-text">
-                            Напитки
-                        </h3>
-                    </a>
-                    <a class="main__box-link" href="#">
-                        <img src="images/img__main-3.png" alt="">
-                        <h3 class="main__box-text">
-                            Бакалея
-                        </h3>
-                    </a>
-                    <a class="main__box-link" href="#">
-                        <img src="images/img__main-4.png" alt="">
-                        <h3 class="main__box-text">
-                            Снеки
-                        </h3>
-                    </a>
-                    <a class="main__box-link" href="#">
-                        <img src="images/img__main-5.png" alt="">
-                        <h3 class="main__box-text">
-                            Специи и орехи
-                        </h3>
-                    </a>
+                <div class="main__box ">
+                    <div class="main__box-conteiner ">
+                        <a class="main__box-link " href="#">
+                            <img src="images/meat.png" alt="">
+                            <h3 class="main__box-text">
+                                Мясо
+                            </h3>
+                        </a>
+                        <a class="main__box-link" href="#">
+                            <img src="images/seafood.png" alt="">
+                            <h3 class="main__box-text">
+                                Морепродукты
+                            </h3>
+                        </a>
+                        <a class="main__box-link" href="#">
+                            <img src="images/img__main.png" alt="">
+                            <h3 class="main__box-text">
+                                Все для курения
+                            </h3>
+                        </a>
+                        <a class="main__box-link" href="#">
+                            <img src="images/img__main-2.png" alt="">
+                            <h3 class="main__box-text">
+                                Напитки
+                            </h3>
+                        </a>
+                        <a class="main__box-link" href="#">
+                            <img src="images/img__main-3.png" alt="">
+                            <h3 class="main__box-text">
+                                Бакалея
+                            </h3>
+                        </a>
+                        <a class="main__box-link" href="#">
+                            <img src="images/img__main-4.png" alt="">
+                            <h3 class="main__box-text">
+                                Снеки
+                            </h3>
+                        </a>
+                        <a class="main__box-link" href="#">
+                            <img src="images/img__main-5.png" alt="">
+                            <h3 class="main__box-text">
+                                Специи и орехи
+                            </h3>
+                        </a>
+                    </div>
                 </div>
             </div>
         </main>
@@ -207,7 +211,8 @@
                                     </h3>
                                 </div>
                                 <div class="cart__table-column">
-                                    <h3 class="cart__table-text"></h3>
+                                    <h3 class="cart__table-text">
+                                    </h3>
                                 </div>
                                 <div class="cart__table-column">
                                     <h3 class="cart__table-text price">
@@ -308,10 +313,13 @@
                     </div>
                     <!--/.cart__table-->
                     <form action="/" class="cart__form">
-                        <input class='cart__form-input' name='cart__tell' type="tel" placeholder='ваш телефон'>
-                        <button class='cart__form-btn'>
-                            ЗАКАЗАТЬ
-                        </button>
+                        <div class=" cart__form-inner">
+                            <input class='cart__form-input' name='cart__tell' type="tel" placeholder='ваш телефон'>
+                            <button class='cart__form-btn'>
+                                ЗАКАЗАТЬ
+                            </button>
+                        </div>
+
                         <p class="cart__form-text">
                             Введите ваш телефон и наш менеджер свяжется с вами для уточнения заказа
                         </p>
@@ -419,6 +427,7 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
