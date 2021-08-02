@@ -1375,7 +1375,10 @@ ul.breadcrumb li a:hover {
 
 @media(max-width: 770px) {
 
-
+    .cart__table-column:nth-child(2) .cart__table-text {
+        margin: 0;
+        padding: 0;
+    }
 
     .cart__table-column:nth-child(1) .cart__table-text {
         padding: 10px;
