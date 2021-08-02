@@ -2211,6 +2211,14 @@ ul.breadcrumb li a:hover {
     color: #FFFFFF;
     border: none;
     padding: 14px 0;
+
+    cursor: pointer;
+
+    transition: .4s;
+}
+
+.tovar__conteiner-btn:hover {
+    background: #125DC2;
 }
 
 .tovar__mob {
