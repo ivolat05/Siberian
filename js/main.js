@@ -17,5 +17,7 @@ $(function () {
         slidesToScroll: 1
     });
 
-
+    document.addEventListener('touchstart', onTouchStart, {
+        passive: true
+    });
 });
